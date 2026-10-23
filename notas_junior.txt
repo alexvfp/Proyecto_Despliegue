@@ -1,0 +1,2 @@
+- el sql da error, mirar
+- el boton cuelga el navegador
