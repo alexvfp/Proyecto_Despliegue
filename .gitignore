@@ -1,0 +1,9 @@
+# Configuración sensible
+config/db.php
+
+# Archivos de texto basura
+*.txt
+
+# IDE
+.vscode/
+.idea/   
