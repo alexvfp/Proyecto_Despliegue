@@ -17,4 +17,4 @@ function procesarDatos() {
 }
 
 
-//codigo arreglado por adrianrrdev
+//codigo arreglado por adrianrrdev (Adrián Rodríguez Román)
