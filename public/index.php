@@ -15,4 +15,4 @@ $titulo = "Proyecto Intermodular DAW2";
   <button onclick="procesarDatos()">Procesar datos</button>
 </body>
 </html>
-<!-- Autores: -->
+<!-- Autores: Alexander Sergio Arauco Casaverde -->
