@@ -15,4 +15,7 @@ $titulo = "Proyecto Intermodular DAW2";
   <button onclick="procesarDatos()">Procesar datos</button>
 </body>
 </html>
-<!-- Autores:Zoraida Maria Mourao Mesias-->
+
+
+<!-- Autores: Alexander Sergio Arauco Casaverde, Adrian Rodriguez (adrianrrdev), Zoraida Maria Mourao Mesias-->
+
