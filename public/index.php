@@ -7,7 +7,6 @@ $titulo = "Proyecto Intermodular DAW2";
 <head>
   <meta charset="UTF-8">
   <title><?= $titulo ?></title>
-  <link rel="stylesheet" href="/css/style.css">
   <script src="js/main.js"></script>
 </head>
 <body>
@@ -16,5 +15,9 @@ $titulo = "Proyecto Intermodular DAW2";
   <button onclick="procesarDatos()">Procesar datos</button>
 </body>
 </html>
-<!-- Autores: -->
-  
+
+
+
+<!-- Autores: Alexander Sergio Arauco Casaverde, Adrian Rodriguez (adrianrrdev), Zoraida Maria Mourao Mesias-->
+
+
