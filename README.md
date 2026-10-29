@@ -24,24 +24,26 @@ git config pull.rebase false
 
 ## Estructura de archivos y directorios
 
-A continuación se detalla la estructura modular del proyecto:
+A continuación se detalla la estructura modular del proyecto sacado de cmd:
 
-text
+
+```text
 Proyecto_Despliegue/
 │
-├── .gitignore             # Configuración de exclusión de rastreo de archivos (entornos IDE, credenciales)
-├── README.md              # Documentación técnica del repositorio
-├── LOG.md                 # Bitácora de incidencias, comandos ejecutados y evidencias de integración
+├── public/                  # Directorio público expuesto por el servidor web
+│   ├── css/                 # Directorio de hojas de estilo
+│   │   └── style.css        # Reglas de estilo CSS de la interfaz
+│   ├── js/                  # Directorio de scripts del cliente
+│   │   └── main.js          # Lógica de interacción en JavaScript
+│   └── index.php            # Punto de entrada de la aplicación PHP
 │
-├── public/                # Directorio público expuesto por el servidor web
-│   ├── index.php          # Punto de entrada de la aplicación PHP
-│   ├── css/               # Directorio de hojas de estilo
-│   │   └── style.css      # Reglas de estilo CSS de la interfaz
-│   └── js/                # Directorio de scripts del cliente
-│       └── main.js        # Lógica de interacción en JavaScript
+├── sql/                     # Scripts de gestión de base de datos
+│   └── init.sql             # Esquema e inicialización de la base de datos
 │
-└── sql/                   # Scripts de gestión de base de datos
-    └── init.sql           # Esquema e inicialización de la base de datos
+├── .gitignore               # Configuración de exclusión de rastreo (IDE, credenciales)
+├── LOG.md                   # Bitácora de incidencias, comandos y evidencias
+└── README.md                # Documentación técnica del repositorio
+```
 
 
 ### Descripción de módulos principales
